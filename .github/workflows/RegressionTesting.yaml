@@ -1,9 +1,8 @@
 name: Selenium Tests
-on:
-  push:
+on: [push,workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-       - name: "ACtion Users"
+       - name: "Action Users"
          run: echo "Hello World"
