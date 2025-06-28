@@ -3,7 +3,7 @@ name: Client 2 - Run on Sunday 10:00 AM IST
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 13 * * 6'  # 10:00 AM IST = 4:30 UTC on Sunday
+    - cron: '30 13 * * 0'  # 7 AM IST = 4:30 UTC on Sunday
 
 jobs:
   client2-tests:
