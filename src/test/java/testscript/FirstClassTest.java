@@ -2,7 +2,7 @@ package testscript;
 
 import org.testng.annotations.Test;
 
-public class FirstClass {
+public class FirstClassTest {
 	
 	@Test
 	public void myFirstMethod()
