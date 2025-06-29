@@ -9,5 +9,11 @@ public class FirstClassTest {
 	{
 		System.out.println("Hello GitHub");
 	}
+	
+	@Test
+	public void myFirstMethod1()
+	{
+		System.out.println("Hello GitHub new test method");
+	}
 
 }
