@@ -10,4 +10,9 @@ public class SecondClassTest {
 		System.out.println("Hello GitHub- Second Class");
 	}
 
+	@Test
+	public void mySecondMethod()
+	{
+		System.out.println("Hello GitHub- Second Class");
+	}
 }
