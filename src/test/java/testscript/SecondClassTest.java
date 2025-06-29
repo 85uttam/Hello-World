@@ -11,8 +11,8 @@ public class SecondClassTest {
 	}
 
 	@Test
-	public void mySecondMethod()
+	public void mySecondMethod1()
 	{
-		System.out.println("Hello GitHub- Second Class");
+		System.out.println("new test method Hello GitHub- Second Class");
 	}
 }
