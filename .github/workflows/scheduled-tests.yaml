@@ -2,7 +2,7 @@ name: Run Different TestNG Suites on Different Days
 
 on:
   schedule:
-    - cron: '15 13 * * 6'  # Monday    (client1)
+    - cron: '15 13 * * 1'  # Monday    (client1)
     - cron: '30 3 * * 2'  # Tuesday   (client2)
     - cron: '30 3 * * 3'  # Wednesday (client3)
     - cron: '30 3 * * 4'  # Thursday  (client4)
@@ -10,7 +10,7 @@ on:
 
 jobs:
   client1-tests:
-    if: github.event.schedule == '15 13 * * 6'
+    if: github.event.schedule == '15 13 * * 1'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
