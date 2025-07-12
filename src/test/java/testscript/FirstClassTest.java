@@ -8,6 +8,7 @@ public class FirstClassTest {
 	public void myFirstMethod()
 	{
 		System.out.println("Hello GitHub");
+		System.out.println("Hello Git in eclipse");
 	}
 	
 	@Test
