@@ -15,6 +15,7 @@ public class FirstClassTest {
 	public void myFirstMethod1()
 	{
 		System.out.println("Hello GitHub new test method");
+		System.out.println("Hello GitHub - Test code push or not in github");
 	}
 
 }
