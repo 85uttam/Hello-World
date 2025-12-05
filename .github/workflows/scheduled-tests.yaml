@@ -2,11 +2,11 @@ name: Run Different TestNG Suites on Different Days
 
 on:
   schedule:
-    - cron: '15 13 * * 1'  # Monday    (client1)
-    - cron: '30 3 * * 2'  # Tuesday   (client2)
-    - cron: '30 3 * * 3'  # Wednesday (client3)
-    - cron: '30 3 * * 4'  # Thursday  (client4)
-    - cron: '30 3 * * 5'  # Friday    (client5)
+#    - cron: '15 13 * * 1'  # Monday    (client1)
+#    - cron: '30 3 * * 2'  # Tuesday   (client2)
+#   - cron: '30 3 * * 3'  # Wednesday (client3)
+#  - cron: '30 3 * * 4'  # Thursday  (client4)
+#    - cron: '30 3 * * 5'  # Friday    (client5)
 
 jobs:
   client1-tests:
